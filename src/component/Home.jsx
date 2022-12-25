@@ -116,7 +116,7 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* Section for projects */}
+      {/* =====================================  Section for projects ===================================== */}
       <div className="projects">
         <h2>My Recent Projects</h2>
         <p>
@@ -227,6 +227,13 @@ function Home() {
           </Link>
         </div>
       </div>
+
+
+
+      {/*============================  section start for statup listng =====================================*/}
+
+
+
       <div className="startupMain">
         <div className="startupContent">
           <div className="startupCtext">
@@ -418,7 +425,7 @@ function Home() {
         </div>
         <div className="statupcolor"></div>
       </div>
-      ffffffffffffffffffffffff
+     ,                                                                                                                                                                                                                          
     </>
   );
 }
