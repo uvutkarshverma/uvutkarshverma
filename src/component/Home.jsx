@@ -425,7 +425,20 @@ function Home() {
         </div>
         <div className="statupcolor"></div>
       </div>
-     ,                                                                                                                                                                                                                          
+
+    <hr className="line" />
+
+    <div className="companydetail">
+      <div className="cddetail">
+        <h2>I'm proud to have collaborated with some awesome companies:</h2>
+      </div>
+      <div className="companylist">
+        <div className="companyitem">
+        <img src={Logo} alt="" />
+        </div>
+      </div>
+    </div>
+                                                                                                                                                                                                                          
     </>
   );
 }
