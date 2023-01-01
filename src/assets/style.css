@@ -176,7 +176,7 @@
 
 .simage {
     width: 100%;
-    
+
 }
 
 .simage img {
@@ -196,11 +196,13 @@
     display: flex;
 
 }
-.aptext{
+
+.aptext {
     width: 60%;
     margin: auto;
 }
-.aptext h2{
+
+.aptext h2 {
     font-size: 38px;
     font-weight: 500;
     line-height: 2;
@@ -208,7 +210,8 @@
     text-align: center;
     color: var(--color3);
 }
-.aptext p{
+
+.aptext p {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.6;
@@ -217,26 +220,30 @@
     color: var(--color3);
     letter-spacing: 1.2px;
 }
-.tyWorks{
+
+.tyWorks {
     width: 100%;
     padding: 2% 0;
 }
-.tyWorks h2{
+
+.tyWorks h2 {
     text-align: center;
     font-family: var(--font1);
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.tyWorks1{
+
+.tyWorks1 {
     display: grid;
     margin: auto;
     width: 80%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(500px, auto);
     column-gap: 2%;
 }
-.ty{
+
+.ty {
     padding: 5% 4%;
     border-bottom: 3px solid var(--color1);
     border-right: 1px solid #E6ECF8;
@@ -246,9 +253,10 @@
     align-items: center;
     margin: 2% 0;
 }
-.tyimgLogo{
+
+.tyimgLogo {
     background-color: var(--color1);
-    
+
     width: 30%;
     height: 91px;
     text-align: center;
@@ -258,11 +266,12 @@
     justify-content: center;
     margin-bottom: 10%;
 }
-.tyimgLogo svg{
+
+.tyimgLogo svg {
     fill: #fff;
 }
 
-.ty h3{
+.ty h3 {
     font-family: var(--font1);
     font-weight: 700;
     font-size: 25px;
@@ -271,7 +280,8 @@
     margin-bottom: 7%;
     text-transform: capitalize;
 }
-.ty p{
+
+.ty p {
     font-family: var(--font2);
     font-weight: 500;
     font-size: 18px;
@@ -279,7 +289,8 @@
     color: var(--color2);
     margin-bottom: 10%;
 }
-.ty h4{
+
+.ty h4 {
     font-family: var(--font1);
     font-weight: 500;
     font-size: 20px;
@@ -288,7 +299,8 @@
     margin-bottom: 7%;
     text-transform: capitalize;
 }
-.ty span{
+
+.ty span {
     font-family: var(--font2);
     font-weight: 500;
     font-size: 18px;
@@ -297,10 +309,12 @@
     margin-bottom: 2%;
     line-height: 1.2;
 }
-.projects{
+
+.projects {
     margin: 6% 0;
 }
-.projects h2{
+
+.projects h2 {
     text-align: center;
     font-family: var(--font1);
     font-size: 35px;
@@ -309,9 +323,10 @@
     letter-spacing: .7px;
     margin-bottom: 1%;
     color: var(--color2);
-    
+
 }
-.projects p{
+
+.projects p {
     text-align: center;
     font-family: var(--font2);
     font-size: 20px;
@@ -320,24 +335,26 @@
     letter-spacing: .7px;
     color: var(--color2);
     margin-bottom: 3%;
-    
+
 }
-.projects p a{
+
+.projects p a {
     text-decoration: none;
     color: var(--color1);
     cursor: pointer;
 }
 
 
-.tyWorks2{
+.tyWorks2 {
     display: grid;
     margin: auto;
     width: 80%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(280px, auto);
     column-gap: 2%;
 }
-.ty1{
+
+.ty1 {
 
     width: 100%;
     box-shadow: 0px 0px 1px 4px #f6f6f6;
@@ -347,20 +364,21 @@
     margin: 5% 0;
     border-radius: 10px;
     position: relative;
-    
-    
+
+
 }
 
-.ty1Direct{ 
+.ty1Direct {
     width: 100%;
     height: 100%;
     display: flex;
     position: absolute;
     top: 0;
     opacity: 1;
-    
+
 }
-.ty1Direct img{ 
+
+.ty1Direct img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -368,7 +386,7 @@
     object-fit: cover;
 }
 
-.ty1Hover{
+.ty1Hover {
     position: absolute;
     top: 0;
     width: 100%;
@@ -381,62 +399,70 @@
     background-color: #141c3a;
     opacity: 0;
     transition: all .6s ease-in-out;
-    
+
 }
-.ty1Hover:hover{
+
+.ty1Hover:hover {
     opacity: 1;
 }
 
-.ty1Hover p{
+.ty1Hover p {
     padding: 0 5%;
-    color:var(--color3);
+    color: var(--color3);
     font-family: var(--font2);
     font-size: 22px;
     font-weight: 500;
     text-align: center;
 }
-.ty1Hover div a{
+
+.ty1Hover div a {
     color: var(--color3);
     padding: 10px 25px;
-    
+
 }
-.ty1showTime{
+
+.ty1showTime {
     display: flex;
 }
-.fmog{
+
+.fmog {
     margin: 3% 0;
     text-align: center;
 }
 
 
 
-.startupMain{
+.startupMain {
     width: 100%;
-    height:auto;
+    height: auto;
     position: relative;
 
 }
-.statupcolor{
+
+.statupcolor {
     width: 100%;
     background-color: var(--color1);
-    height:500px;
+    height: 500px;
     position: absolute;
     top: 0;
     z-index: -1;
 
 }
-.startupContent{
+
+.startupContent {
     width: 100%;
     z-index: 1;
     padding: 10% 0;
 }
-.startupCtext{
+
+.startupCtext {
     width: 70%;
     margin: auto;
     text-align: center;
 
 }
-.startupCtext h2{
+
+.startupCtext h2 {
     text-align: center;
     font-family: var(--font1);
     font-size: 35px;
@@ -446,7 +472,8 @@
     margin-bottom: 3%;
     color: var(--color3);
 }
-.startupCtext p{
+
+.startupCtext p {
     text-align: center;
     font-family: var(--font2);
     font-size: 20px;
@@ -457,15 +484,16 @@
     margin-bottom: 3%;
 }
 
-.startupCard{
+.startupCard {
     display: grid;
     margin: auto;
     width: 80%;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(280px, auto);
     column-gap: 2%;
 }
-.scard{
+
+.scard {
     background-color: var(--color3);
     border-radius: 20px;
     border: .1px solid #c7c6c6;
@@ -475,12 +503,14 @@
     justify-content: space-evenly;
     margin-bottom: 5%;
 }
-.scard div img{
+
+.scard div img {
     width: 100%;
     text-align: center;
     padding: 0 2%;
 }
-.scard p{
+
+.scard p {
     padding: 0 5%;
     color: var(--color2);
     font-family: var(--font2);
@@ -489,7 +519,8 @@
     font-weight: 500;
     text-align: center;
 }
-.scard a{
+
+.scard a {
 
     color: var(--color1);
     font-family: var(--font2);
@@ -501,13 +532,22 @@
     background-color: #ebf5ff;
     padding: 1% 4%;
 }
-.scard a svg{
+
+.scard a svg {
     margin: 0 3px;
     letter-spacing: 0;
 }
 
-hr.line{
-    border: 1px solid var(--color1);
+hr.line {
+    border-top: 0.2px solid #ceccd1;
 }
 
+.companydetail {
+    width: 100%;
 
+}
+.cddetail{
+    width: 100%;
+    
+
+}
