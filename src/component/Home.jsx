@@ -430,9 +430,18 @@ function Home() {
 
     <div className="companydetail">
       <div className="cddetail">
-        <h2>I'm proud to have collaborated with some awesome companies:</h2>
+        <h2>I'm proud to have Worked with some awesome companies:</h2>
       </div>
       <div className="companylist">
+        <div className="companyitem">
+        <img src={Logo} alt="" />
+        </div>
+        <div className="companyitem">
+        <h3>The Coder Utkarsh</h3>
+        </div>
+        <div className="companyitem">
+        <img src={Logo} alt="" />
+        </div>
         <div className="companyitem">
         <img src={Logo} alt="" />
         </div>
