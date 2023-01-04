@@ -6,6 +6,7 @@ import Avatar from "../images/avatar.svg";
 import HeroDev from "../images/hero-devices.svg";
 import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
+import Logo1 from "../images/logo1.png";
 function Home() {
   return (
     <>
@@ -434,7 +435,7 @@ function Home() {
       </div>
       <div className="companylist">
         <div className="companyitem">
-        <img src={Logo} alt="" />
+        <img src={Logo1} alt="" />
         </div>
         <div className="companyitem">
         <h3>The Coder Utkarsh</h3>
@@ -445,7 +446,23 @@ function Home() {
         <div className="companyitem">
         <img src={Logo} alt="" />
         </div>
+        <div className="companyitem">
+        <img src={Logo} alt="" />
+        </div>
+        <div className="companyitem">
+        <h3>The Coder Utkarsh</h3>
+        </div>
+        <div className="companyitem">
+        <h3>The Coder Utkarsh</h3>
+        </div>
+        <div className="companyitem">
+        <h3>The Coder Utkarsh</h3>
+        </div>
       </div>
+    </div>
+
+    <div className="contactCard">
+      <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, adipisci.</h2>
     </div>
                                                                                                                                                                                                                           
     </>
