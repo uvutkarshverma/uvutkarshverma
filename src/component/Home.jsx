@@ -462,7 +462,9 @@ function Home() {
     </div>
 
     <div className="contactCard">
-      <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, adipisci.</h2>
+      <h2>Interested in collaborating with me?</h2>
+      <h3>I’m always open to discussing product design work or partnership opportunities.</h3>
+      <div className="contactCardbtn"><a href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
     </div>
                                                                                                                                                                                                                           
     </>
