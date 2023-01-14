@@ -390,7 +390,7 @@ function Home() {
                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
                   />
                 </svg>
-                 Know More
+                Know More
               </a>
             </div>
             <div className="scard">
@@ -427,47 +427,90 @@ function Home() {
         <div className="statupcolor"></div>
       </div>
 
-    <div className="contactCard">
-      <h2>Interested in collaborating with me?</h2>
-      <h3>I’m always open to discussing product design work or partnership opportunities.</h3>
-      <div className="contactCardbtn"><a href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
-    </div>
 
-    <hr className="line" />
 
-    <div className="companydetail">
-      <div className="cddetail">
-        <h2>I'm proud to have Worked with some awesome companies:</h2>
-      </div>
-      <div className="companylist">
-        <div className="companyitem">
-        <img src={Logo1} alt="" />
+      <hr className="line" />
+
+      <div className="companydetail">
+        <div className="cddetail">
+          <h2>I'm proud to have Worked with some awesome companies:</h2>
         </div>
-        <div className="companyitem">
-        <h3>The Coder Utkarsh</h3>
-        </div>
-        <div className="companyitem">
-        <img src={Logo} alt="" />
-        </div>
-        <div className="companyitem">
-        <img src={Logo} alt="" />
-        </div>
-        <div className="companyitem">
-        <img src={Logo} alt="" />
-        </div>
-        <div className="companyitem">
-        <h3>The Coder Utkarsh</h3>
-        </div>
-        <div className="companyitem">
-        <h3>The Coder Utkarsh</h3>
-        </div>
-        <div className="companyitem">
-        <h3>The Coder Utkarsh</h3>
+        <div className="companylist">
+          <div className="companyitem">
+            <img src={Logo1} alt="" />
+          </div>
+          <div className="companyitem">
+            <h3>The Coder Utkarsh</h3>
+          </div>
+          <div className="companyitem">
+            <img src={Logo} alt="" />
+          </div>
+          <div className="companyitem">
+            <img src={Logo} alt="" />
+          </div>
+          <div className="companyitem">
+            <img src={Logo} alt="" />
+          </div>
+          <div className="companyitem">
+            <h3>The Coder Utkarsh</h3>
+          </div>
+          <div className="companyitem">
+            <h3>The Coder Utkarsh</h3>
+          </div>
+          <div className="companyitem">
+            <h3>The Coder Utkarsh</h3>
+          </div>
         </div>
       </div>
-    </div>
-                                                                                                                                                                                                                          
-    </>
+
+
+      <div className="contactCard">
+        <h2>Interested in collaborating with me?</h2>
+        <h3>I’m always open to discussing product design work or partnership opportunities.</h3>
+        <div className="contactCardbtn"><a href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
+      </div>
+
+
+      <div className="testimo">
+        <h2>Testimonials</h2>
+        <p>People I've worked with have said some nice things...</p>
+        <div className="testimonial">
+          <div className="slide-row" id="slide">
+            <div className="slide-col">
+              <img src={Logo} alt="" />
+              <h3>“1Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+              <p>Alvin Engler</p>
+              <span>CEO, West Third Enterprises, Inc.</span>
+            </div>
+            <div className="slide-col slide-active">
+              <img src={Logo} alt="" />
+              <h3>“2Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+              <p>Alvin Engler</p>
+              <span>CEO, West Third Enterprises, Inc.</span>
+            </div>
+            <div className="slide-col">
+              <img src={Logo} alt="" />
+              <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+              <p>Alvin Engler</p>
+              <span>CEO, West Third Enterprises, Inc.</span>
+            </div>
+            <div className="slide-col">
+              <img src={Logo} alt="" />
+              <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+              <p>Alvin Engler</p>
+              <span>CEO, West Third Enterprises, Inc.</span>
+            </div>
+          </div>
+          <div className="indicator">
+            <span to="" className="indibtn indibtn-active"></span>
+            <span to="" className="indibtn"></span>
+        
+          </div>
+        </div>
+      </div>
+
+
+</>
   );
 }
 
