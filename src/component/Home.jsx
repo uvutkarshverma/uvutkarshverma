@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import homeImage from "../images/utkarshhome.png";
 import Avatar from "../images/avatar.svg";
 import HeroDev from "../images/hero-devices.svg";
@@ -8,6 +9,29 @@ import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
 import Logo1 from "../images/logo1.png";
 function Home() {
+
+  const dict1 = [
+    `<div class="slide-col slide-active">
+    <img src=${Logo} alt="" />
+    <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+    <p>Alvin Engler</p>
+    <span>CEO, West Third Enterprises, Inc.</span>
+  </div>`,
+    `<div class="slide-col slide-active">
+  <img src={Logo} alt="" />
+  <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
+  <p>Alvin Engler</p>
+  <span>CEO, West Third Enterprises, Inc.</span>
+</div>`
+  ];
+  let i = 0;
+  const htmlPart = dict1[0];
+  function nextSlides() {
+    console.log(i);
+    i = (i + 1);
+    console.log("finishnext");
+  }
+
   return (
     <>
       <Navbar />
@@ -475,42 +499,19 @@ function Home() {
         <h2>Testimonials</h2>
         <p>People I've worked with have said some nice things...</p>
         <div className="testimonial">
-          <div className="slide-row" id="slide">
-            <div className="slide-col">
-              <img src={Logo} alt="" />
-              <h3>“1Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
-              <p>Alvin Engler</p>
-              <span>CEO, West Third Enterprises, Inc.</span>
-            </div>
-            <div className="slide-col slide-active">
-              <img src={Logo} alt="" />
-              <h3>“2Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
-              <p>Alvin Engler</p>
-              <span>CEO, West Third Enterprises, Inc.</span>
-            </div>
-            <div className="slide-col">
-              <img src={Logo} alt="" />
-              <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
-              <p>Alvin Engler</p>
-              <span>CEO, West Third Enterprises, Inc.</span>
-            </div>
-            <div className="slide-col">
-              <img src={Logo} alt="" />
-              <h3>“Matt's a clear communicator with the tenacity and confidence to really dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</h3>
-              <p>Alvin Engler</p>
-              <span>CEO, West Third Enterprises, Inc.</span>
-            </div>
+          <div className="slide-row" id="slide" dangerouslySetInnerHTML={{ __html: htmlPart }} >
           </div>
           <div className="indicator">
-            <span to="" className="indibtn indibtn-active"></span>
-            <span to="" className="indibtn"></span>
-        
+            <span to="" className="indibtn indibtn-active" ></span>
+            <span to="" className="indibtn " ></span>
+
+
           </div>
         </div>
       </div>
 
-
-</>
+      <Footer/>
+    </>
   );
 }
 
