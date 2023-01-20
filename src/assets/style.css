@@ -541,13 +541,15 @@
 hr.line {
     border-bottom: .7px solid #e4e5e7;
 }
-.contactCard{
+
+.contactCard {
     padding: 100px 0;
     width: 100%;
     background-color: #e4e5e7;
-    
+
 }
-.contactCard h2{
+
+.contactCard h2 {
     font-size: 28px;
     font-family: var(--font1);
     color: var(--color2);
@@ -555,7 +557,8 @@ hr.line {
     text-align: center;
     margin-bottom: 2%;
 }
-.contactCard h3{
+
+.contactCard h3 {
     font-size: 21px;
     font-family: var(--font2);
     color: #5a5a5a;
@@ -563,7 +566,8 @@ hr.line {
     text-align: center;
     margin-bottom: 4%;
 }
-.contactCardbtn{
+
+.contactCardbtn {
     text-align: center;
 }
 
@@ -574,17 +578,19 @@ hr.line {
     width: 100%;
     height: auto;
     margin: 100px 0;
-   
+
 
 }
-.cddetail{
+
+.cddetail {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    margin:auto;
-    
+    margin: auto;
+
 }
-.cddetail h2{
+
+.cddetail h2 {
     width: 80%;
     text-align: center;
     font-family: var(--font1);
@@ -598,46 +604,52 @@ hr.line {
 
 
 }
-.companylist{
+
+.companylist {
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: minmax(100px, auto);
     row-gap: 50px;
 }
-.companyitem{
+
+.companyitem {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 100%;
 }
-.companyitem img{
-height: auto;
-width: auto;
-   
+
+.companyitem img {
+    height: auto;
+    width: auto;
+
 }
-.companyitem h3{
-font-family: var(--font1);
-font-size: 30px;
-font-weight: 700;
-justify-content: center;
+
+.companyitem h3 {
+    font-family: var(--font1);
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
 }
 
 
-.testimo{
+.testimo {
     width: 100%;
     padding: 50px 0;
-    
+
 }
-.testimo h2{
+
+.testimo h2 {
     font-weight: 700;
     font-size: 45px;
     font-family: var(--font1);
     text-align: center;
     line-height: 2;
 }
-.testimo p{
+
+.testimo p {
     width: 80%;
     font-weight: 600;
     font-size: 21px;
@@ -646,16 +658,18 @@ justify-content: center;
     margin: auto;
 }
 
-.testimonial{
+.testimonial {
     width: 100%;
-    
+
 }
-.slide-row{
+
+.slide-row {
     width: 100%;
     position: relative;
-    height:480px;
+    height: 480px;
 }
-.slide-col{
+
+.slide-col {
     position: absolute;
     top: 0;
     width: 70%;
@@ -664,14 +678,16 @@ justify-content: center;
     padding: 90px 0;
     text-align: center;
     opacity: 0;
-    left:15%;
+    left: 15%;
     right: 15%;
 }
-.slide-active{
+
+.slide-active {
     opacity: 1;
     z-index: 2;
 }
-.slide-col img{
+
+.slide-col img {
     width: 100px;
     height: 100px;
     margin: auto;
@@ -679,48 +695,54 @@ justify-content: center;
     border-radius: 10px;
     margin-bottom: 40px;
 }
-.slide-col h3{
+
+.slide-col h3 {
     font-size: 24px;
     font-family: var(--font2);
     font-weight: 400;
     color: #141c3a;
     margin-bottom: 40px;
-    
+
 }
-.slide-col p{
+
+.slide-col p {
     font-size: 20px;
     font-family: var(--font1);
     font-weight: 600;
     color: var(--color2);
     line-height: 1.7;
 }
-.slide-col span{
+
+.slide-col span {
     font-size: 20px;
     font-family: var(--font2);
     font-weight: 600;
     color: #141c3a;
 
 }
-.indicator{
-width: 100%;
-text-align: center;
+
+.indicator {
+    width: 100%;
+    text-align: center;
 
 }
-.indibtn{
+
+.indibtn {
     display: inline-block;
     height: 15px;
     width: 15px;
-    margin:4px;
+    margin: 4px;
     border-radius: 15px;
     background-color: rgb(32, 32, 32);
     cursor: pointer;
 }
-.indibtn-active{
+
+.indibtn-active {
     width: 40px;
     background-color: #000;
 }
 
-.footer{
+.footer {
     margin-top: 80px;
     height: auto;
     width: 100%;
@@ -728,7 +750,8 @@ text-align: center;
     position: relative;
 
 }
-.footerCard{
+
+.footerCard {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -742,7 +765,8 @@ text-align: center;
     border-radius: 18px;
     text-align: center;
 }
-.footerCarditem h3{
+
+.footerCarditem h3 {
     font-size: 28px;
     font-family: var(--font1);
     color: var(--color3);
@@ -750,7 +774,8 @@ text-align: center;
     text-align: center;
 
 }
-.footerCarditem p{
+
+.footerCarditem p {
     text-align: left;
     font-size: 18px;
     font-family: var(--font2);
@@ -758,16 +783,18 @@ text-align: center;
     font-weight: 500;
     text-align: left;
 }
-.footerCarditem a{
+
+.footerCarditem a {
     color: var(--color3);
- 
+
 }
 
-.footerContent{
+.footerContent {
     padding: 200px 0 100px 0;
-    
+
 }
-.footerContent h2{
+
+.footerContent h2 {
     font-weight: 700;
     font-size: 45px;
     font-family: var(--font1);
@@ -776,7 +803,8 @@ text-align: center;
     color: var(--color3);
 
 }
-.footerContent p{
+
+.footerContent p {
     font-weight: 600;
     font-size: 21px;
     font-family: var(--font2);
@@ -785,19 +813,22 @@ text-align: center;
     color: var(--color3);
 
 }
-.footerContent p a{
+
+.footerContent p a {
     color: var(--color3);
     text-decoration: none;
 
 }
-.footerSocial{
+
+.footerSocial {
     display: flex;
     width: 40%;
     margin: 40px auto;
     justify-content: space-evenly;
 
 }
-.FSicon{
+
+.FSicon {
     width: 40px;
     height: 40px;
     border: 2px solid #fff;
@@ -807,9 +838,49 @@ text-align: center;
     align-items: center;
 
 }
-.FSicon svg{
+
+.FSicon svg {
     width: 20px;
     height: 20px;
     fill: #fff;
 
+}
+
+@media(max-width:600px) {
+
+    .titleLogo .logo a {
+        padding: 0 0 0 10%;
+
+    }
+
+    .titleLogo .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .titleLogo .logo a div {
+        font-size: 16px;
+
+    }
+    .link{
+        font-size: 17px !important;
+    }
+    .navbarLink ul li a.btn{
+        font-size: 16px;
+        padding: 9px 9px;
+    }
+    .frontImagehello{
+        flex-direction: column;
+    }
+    .fihello {
+        width: 100%;
+        height: 60vh;
+        align-items: end;
+    }
+    .fihellotext {
+        padding:0;
+        font-size: 50px;
+        text-align: center;
+
+    }
 }

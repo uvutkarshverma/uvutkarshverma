@@ -57,7 +57,7 @@ function Home() {
             I design and code, simple things beautifully, and I love what I do.
           </p>
         </div>
-        <div className="personaHo">
+        <div className="personaHo" >
           <img src={Avatar} alt="" />
         </div>
         <div className="simage">
