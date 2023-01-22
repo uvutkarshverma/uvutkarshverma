@@ -19,8 +19,8 @@ function Navbar() {
           </div>
           <div className="navbarLink">
             <ul>
-              <li><Link className='link' to="/about">About</Link></li>
-              <li><Link className='btn' to="/contact">Say Hello</Link></li>
+              <li><a className='link' href="#about">About</a></li>
+              <li><a className='btn' target="_blank" href = "https://wa.me/send?phone=918887339950&text=Hello%20Utkarsh%20😀" >Say Hello</a></li>
             </ul>
           </div>
         </div>

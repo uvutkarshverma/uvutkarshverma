@@ -64,7 +64,7 @@ function Home() {
           <img src={HeroDev} alt="" />
         </div>
       </div>
-      <div className="paraAbout">
+      <div className="paraAbout" id="about">
         <div className="aptext">
           <h2>Hi, I’m Utkarsh. Nice to see you here.</h2>
           <p>
@@ -145,8 +145,8 @@ function Home() {
       <div className="projects">
         <h2>My Recent Projects</h2>
         <p>
-          Here are a few past design projects I've worked on. Want to see more?{" "}
-          <Link to="/contact"> Email me</Link>.
+          Here are a few past design projects I've worked on. Want for Yourself?{" "}
+          <a href="mailto:uvutkarshverma@gmail.com"> Email me</a>.
         </p>
         <div className="tyWorks2">
           <div className="ty1">

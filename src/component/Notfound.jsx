@@ -3,8 +3,8 @@ import Navbar from './Navbar';
 function Notfound() {
   return (
     <>
-    <Navbar />
-    <div>page not found Notfound</div>
+ 
+    <div className='notfound'>Page Not Found</div>
     </>
   )
 }

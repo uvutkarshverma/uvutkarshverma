@@ -1052,3 +1052,10 @@
 
     }
 }
+.notfound{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
