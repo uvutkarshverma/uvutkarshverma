@@ -454,7 +454,7 @@ function Home() {
 
 
       <hr className="line" />
-
+{/* Logo size image will br 150 width 100 px heigtht fixed width max 300 */}
       <div className="companydetail">
         <div className="cddetail">
           <h2>I'm proud to have Worked with some awesome companies:</h2>
