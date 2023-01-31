@@ -7,24 +7,26 @@ import {
   Route,
   Link,
   Redirect,
+  Switch,
+  Router,
 } from "react-router-dom";
 
 function App() {
   return (
     <>
 
-      <BrowserRouter>
+<BrowserRouter>
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Notfound/>} />
-          
-          
-        </Routes>
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="*" element={<Notfound/>} />
+  
+  
+</Routes>
 
 
 
-      </BrowserRouter>
+</BrowserRouter>
   
 </>
   );
