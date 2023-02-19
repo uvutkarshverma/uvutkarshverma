@@ -147,7 +147,7 @@ function Home() {
         <h2>My Recent Projects</h2>
         <p>
           Here are a few past design projects I've worked on. Want for Yourself?{" "}
-          <a href="mailto:uvutkarshverma@gmail.com"> Email me</a>.
+          <a href="mailto:utkarsh.verma9598@gmail.com"> Email me</a>.
         </p>
         <div className="tyWorks2">
           <div className="ty1">
@@ -160,7 +160,7 @@ function Home() {
                 homeowners.
               </p>
               <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
                   Know More
                 </a>
               </div>
@@ -248,7 +248,7 @@ function Home() {
           </div>
         </div>
         <div className="fmog">
-          <Link to="https://github.com/uvutkarshverma" className="btn fmog">
+          <Link target="__blank" to="https://github.com/uvutkarshverma" className="btn fmog">
             Find More on Github
           </Link>
         </div>
@@ -276,9 +276,9 @@ function Home() {
                 <img src={Jug} alt="" />
               </div>
               <p>
-              "Innovative digital solutions for modern businesses."
+              Innovative digital solutions for modern businesses.
               </p>
-              <a href="https://justunitedgroup.co/" target="__blank">
+              <a href="https://justunitedgroup.co/" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -307,7 +307,7 @@ function Home() {
               <p>
                 One Stop For all Your Questions to get Answered.
               </p>
-              <a href="https://qnastop.com/">
+              <a href="https://qnastop.com/" target="__blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -333,9 +333,9 @@ function Home() {
               <h3>The Coder Utkarsh</h3>
               </div>
               <p>
-              Accelerating your learning with real-world examples and hands-on demonstrations.
+              Accelerating your learning with real-world examples and hands-on demonstrations/
               </p>
-              <a href="https://github.com/uvutkarshverma">
+              <a href="https://youtube.com/@thecoderutkarsh/" target="__blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -391,7 +391,7 @@ function Home() {
       <div className="contactCard">
         <h2>Interested in collaborating with me?</h2>
         <h3>I’m always open to discussing Full Stack Development or partnership opportunities.</h3>
-        <div className="contactCardbtn"><a href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
+        <div className="contactCardbtn"><a target="__blank" href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
       </div>
 
 
