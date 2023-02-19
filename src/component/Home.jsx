@@ -156,8 +156,7 @@ function Home() {
             </div>
             <div className="ty1Hover">
               <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
+                Updating Soon Meanwhile Have a look at Github.
               </p>
               <div>
                 <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
@@ -172,11 +171,10 @@ function Home() {
             </div>
             <div className="ty1Hover">
               <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
+              Updating Soon Meanwhile Have a look at Github.
               </p>
               <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
                   Know More
                 </a>
               </div>
@@ -188,64 +186,17 @@ function Home() {
             </div>
             <div className="ty1Hover">
               <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
+              Updating Soon Meanwhile Have a look at Github.
               </p>
               <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
                   Know More
                 </a>
               </div>
             </div>
           </div>
-          <div className="ty1">
-            <div className="ty1Direct">
-              <img src={Image1} alt="" />
-            </div>
-            <div className="ty1Hover">
-              <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
-              </p>
-              <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
-                  Know More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="ty1">
-            <div className="ty1Direct">
-              <img src={Image1} alt="" />
-            </div>
-            <div className="ty1Hover">
-              <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
-              </p>
-              <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
-                  Know More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="ty1">
-            <div className="ty1Direct">
-              <img src={Image1} alt="" />
-            </div>
-            <div className="ty1Hover">
-              <p>
-                High-end, custom residential renovaters serving Fraser Valley
-                homeowners.
-              </p>
-              <div>
-                <a href="https://github.com/uvutkarshverma" className="btn">
-                  Know More
-                </a>
-              </div>
-            </div>
-          </div>
+        
+        
         </div>
         <div className="fmog">
           <Link target="__blank" to="https://github.com/uvutkarshverma" className="btn fmog">
