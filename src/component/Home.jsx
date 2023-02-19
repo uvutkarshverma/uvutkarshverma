@@ -2,12 +2,17 @@ import React, { useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import homeImage from "../images/utkarshhome.png";
+import homeImage from "../images/utkarsh.png";
 import Avatar from "../images/avatar.svg";
 import HeroDev from "../images/hero-devices.svg";
 import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
-import Logo1 from "../images/logo1.png";
+import Testi1 from "../images/sunderptesti.jpg";
+
+
+import Anumak from "../images/company/aNumak.png";
+import Nuvo from "../images/company/nuvo.png";
+import Jug from "../images/company/jug.png";
 function Home() {
 
   const dict1 = [
@@ -54,7 +59,7 @@ function Home() {
         <div className="sinfo">
           <h2>Full Stack Developer & Mentor</h2>
           <p>
-            I design and code, simple things beautifully, and I love what I do.
+          Creating impactful solutions and inspiring the next wave of developers.
           </p>
         </div>
         <div className="personaHo" >
@@ -68,11 +73,7 @@ function Home() {
         <div className="aptext">
           <h2>Hi, I’m Utkarsh. Nice to see you here.</h2>
           <p>
-            Since beginning my journey as a freelance designer over 4 years ago,
-            I've done remote work for agencies, and collaborated with talented
-            people to create digital products for both business and consumer
-            use. I'm quietly confident, naturally curious, and perpetually
-            working on improving my chops one design problem at a time.
+          For more than four years, I have been forging a path as a Developer, working remotely for esteemed agencies and collaborating with talented individuals to create cutting-edge digital products for business and consumer use. I approach each project with quiet confidence, fueled by my innate curiosity and unrelenting commitment to sharpening my skills through each development challenge.
           </p>
         </div>
       </div>
@@ -85,19 +86,19 @@ function Home() {
                 <path d="M28.5 40v-3h6q1.05 0 1.775-.725Q37 35.55 37 34.5v-5q0-1.85 1.125-3.3 1.125-1.45 2.875-2v-.4q-1.75-.5-2.875-1.975T37 18.5v-5q0-1.05-.725-1.775Q35.55 11 34.5 11h-6V8h6q2.3 0 3.9 1.6t1.6 3.9v5q0 1.05.725 1.775Q41.45 21 42.5 21H44v6h-1.5q-1.05 0-1.775.725Q40 28.45 40 29.5v5q0 2.3-1.6 3.9T34.5 40Zm-15 0q-2.3 0-3.9-1.6T8 34.5v-5q0-1.05-.725-1.775Q6.55 27 5.5 27H4v-6h1.5q1.05 0 1.775-.725Q8 19.55 8 18.5v-5q0-2.3 1.6-3.9T13.5 8h6v3h-6q-1.05 0-1.775.725Q11 12.45 11 13.5v5q0 1.85-1.125 3.325T7 23.8v.4q1.75.55 2.875 2T11 29.5v5q0 1.05.725 1.775Q12.45 37 13.5 37h6v3Z" />
               </svg>
             </div>
-            <h3>Frontend Developer</h3>
+            <h3>Frontend Developement</h3>
             <p>
-              I like to code things from scratch, and enjoy bringing ideas to
-              life in the browser.
+            I enjoy coding from scratch and bringing ideas to life in the browser.
             </p>
             <h4>Languages I speak:</h4>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p>HTML, CSS, JavaScript, Bootstrap, jQuery, ReactJS</p>
             <h4>Dev Tools:</h4>
-            <span>Atom</span>
-            <span>Vs Code</span>
+            <span>VS Code </span>
             <span>Live Server</span>
             <span>Xampp</span>
             <span>Chrome</span>
+            <span>Github</span>
+            <span>Linux </span>
           </div>
           <div className="ty">
             <div className="tyimgLogo">
@@ -105,19 +106,19 @@ function Home() {
                 <path d="M28.5 40v-3h6q1.05 0 1.775-.725Q37 35.55 37 34.5v-5q0-1.85 1.125-3.3 1.125-1.45 2.875-2v-.4q-1.75-.5-2.875-1.975T37 18.5v-5q0-1.05-.725-1.775Q35.55 11 34.5 11h-6V8h6q2.3 0 3.9 1.6t1.6 3.9v5q0 1.05.725 1.775Q41.45 21 42.5 21H44v6h-1.5q-1.05 0-1.775.725Q40 28.45 40 29.5v5q0 2.3-1.6 3.9T34.5 40Zm-15 0q-2.3 0-3.9-1.6T8 34.5v-5q0-1.05-.725-1.775Q6.55 27 5.5 27H4v-6h1.5q1.05 0 1.775-.725Q8 19.55 8 18.5v-5q0-2.3 1.6-3.9T13.5 8h6v3h-6q-1.05 0-1.775.725Q11 12.45 11 13.5v5q0 1.85-1.125 3.325T7 23.8v.4q1.75.55 2.875 2T11 29.5v5q0 1.05.725 1.775Q12.45 37 13.5 37h6v3Z" />
               </svg>
             </div>
-            <h3>Frontend Developer</h3>
+            <h3>Backend Development</h3>
             <p>
-              I like to code things from scratch, and enjoy bringing ideas to
-              life in the browser.
+            Building robust and scalable backends for modern Softwares.
             </p>
             <h4>Languages I speak:</h4>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p>Python, PHP, Javascript, C Programming, DBMS</p>
             <h4>Dev Tools:</h4>
-            <span>Atom</span>
             <span>Vs Code</span>
-            <span>Live Server</span>
+            <span>Microsoft Azure</span>
+            <span>AWS</span>
             <span>Xampp</span>
-            <span>Chrome</span>
+            <span>MySql</span>
+            <span>Mongodb</span>
           </div>
           <div className="ty">
             <div className="tyimgLogo">
@@ -125,19 +126,19 @@ function Home() {
                 <path d="M28.5 40v-3h6q1.05 0 1.775-.725Q37 35.55 37 34.5v-5q0-1.85 1.125-3.3 1.125-1.45 2.875-2v-.4q-1.75-.5-2.875-1.975T37 18.5v-5q0-1.05-.725-1.775Q35.55 11 34.5 11h-6V8h6q2.3 0 3.9 1.6t1.6 3.9v5q0 1.05.725 1.775Q41.45 21 42.5 21H44v6h-1.5q-1.05 0-1.775.725Q40 28.45 40 29.5v5q0 2.3-1.6 3.9T34.5 40Zm-15 0q-2.3 0-3.9-1.6T8 34.5v-5q0-1.05-.725-1.775Q6.55 27 5.5 27H4v-6h1.5q1.05 0 1.775-.725Q8 19.55 8 18.5v-5q0-2.3 1.6-3.9T13.5 8h6v3h-6q-1.05 0-1.775.725Q11 12.45 11 13.5v5q0 1.85-1.125 3.325T7 23.8v.4q1.75.55 2.875 2T11 29.5v5q0 1.05.725 1.775Q12.45 37 13.5 37h6v3Z" />
               </svg>
             </div>
-            <h3>Frontend Developer</h3>
+            <h3>Other Skills</h3>
             <p>
-              I like to code things from scratch, and enjoy bringing ideas to
-              life in the browser.
+            Expert-level skills and a passion for excellence in every sector.
             </p>
-            <h4>Languages I speak:</h4>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
-            <h4>Dev Tools:</h4>
-            <span>Atom</span>
-            <span>Vs Code</span>
-            <span>Live Server</span>
-            <span>Xampp</span>
-            <span>Chrome</span>
+            <h4>I can do:</h4>
+            <p>Digital Marketing, Video editing, Graphics Designing, Blogging, Content Creator</p>
+            <h4>Tools:</h4>
+            <span>Google</span>
+            <span>Elementor</span>
+            <span>ShotCut Video editor</span>
+            <span>Canva</span>
+            <span>Instagram</span>
+            <span>Wordpress</span>
           </div>
         </div>
       </div>
@@ -264,23 +265,49 @@ function Home() {
           <div className="startupCtext">
             <h2>My Startup Projects</h2>
             <p>
-              I'm a bit of a digital product junky. Over the years, I've used
-              hundreds of web and mobile apps in different industries and
-              verticals. Eventually, I decided that it would be a fun challenge
-              to try designing and building my own.
+            I have a passion for digital products and have used countless web and mobile apps across various industries and verticals over the years. This sparked my interest in designing and building my own, and I saw it as a fun challenge that I was eager to take on.
             </p>
           </div>
 
           <div className="startupCard">
+
             <div className="scard">
               <div>
-                <img src={Logo} alt="" />
+                <img src={Jug} alt="" />
               </div>
               <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
+              "Innovative digital solutions for modern businesses."
               </p>
-              <a href="https://github.com/uvutkarshverma">
+              <a href="https://justunitedgroup.co/" target="__blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-up-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
+                  />
+                </svg>
+                Know More
+              </a>
+            </div>
+
+            <div className="scard">
+              <div>
+                <h3>Qnastop.com</h3>
+              </div>
+              <p>
+                One Stop For all Your Questions to get Answered.
+              </p>
+              <a href="https://qnastop.com/">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -303,11 +330,10 @@ function Home() {
             </div>
             <div className="scard">
               <div>
-                <img src={Logo} alt="" />
+              <h3>The Coder Utkarsh</h3>
               </div>
               <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
+              Accelerating your learning with real-world examples and hands-on demonstrations.
               </p>
               <a href="https://github.com/uvutkarshverma">
                 <svg
@@ -330,122 +356,7 @@ function Home() {
                 Know More
               </a>
             </div>
-            <div className="scard">
-              <div>
-                <img src={Logo} alt="" />
-              </div>
-              <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
-              </p>
-              <a href="https://github.com/uvutkarshverma">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-box-arrow-up-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
-                  />
-                </svg>
-                Know More
-              </a>
-            </div>
-            <div className="scard">
-              <div>
-                <img src={Logo} alt="" />
-              </div>
-              <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
-              </p>
-              <a href="https://github.com/uvutkarshverma">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-box-arrow-up-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
-                  />
-                </svg>
-                Know More
-              </a>
-            </div>
-            <div className="scard">
-              <div>
-                <img src={Logo} alt="" />
-              </div>
-              <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
-              </p>
-              <a href="https://github.com/uvutkarshverma">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-box-arrow-up-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
-                  />
-                </svg>
-                Know More
-              </a>
-            </div>
-            <div className="scard">
-              <div>
-                <img src={Logo} alt="" />
-              </div>
-              <p>
-                High-end, custom residential renovaters serving Fraser
-                residential renovaters serving FraserValley homeowners.
-              </p>
-              <a href="https://github.com/uvutkarshverma">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-box-arrow-up-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
-                  />
-                </svg>
-                Know More
-              </a>
-            </div>
+
           </div>
         </div>
         <div className="statupcolor"></div>
@@ -454,52 +365,50 @@ function Home() {
 
 
       <hr className="line" />
-{/* Logo size image will br 150 width 100 px heigtht fixed width max 300 */}
+      {/* Logo size image will br 150 width 100 px heigtht fixed width max 300 */}
       <div className="companydetail">
         <div className="cddetail">
-          <h2>I'm proud to have Worked with some awesome companies:</h2>
+          <h2>I'm proud to have Worked with some Awesome Companies:</h2>
         </div>
         <div className="companylist">
           <div className="companyitem">
-            <img src={Logo1} alt="" />
+            <img src={Anumak} alt="" />
           </div>
           <div className="companyitem">
-            <h3>The Coder Utkarsh</h3>
+            <h3>UrbanFMS.com</h3>
           </div>
           <div className="companyitem">
-            <img src={Logo} alt="" />
+            <img src={Nuvo} alt="" />
           </div>
           <div className="companyitem">
-            <img src={Logo} alt="" />
+            <h3>Voicet.studio</h3>
           </div>
-          <div className="companyitem">
-            <img src={Logo} alt="" />
-          </div>
-          <div className="companyitem">
-            <h3>The Coder Utkarsh</h3>
-          </div>
-          <div className="companyitem">
-            <h3>The Coder Utkarsh</h3>
-          </div>
-          <div className="companyitem">
-            <h3>The Coder Utkarsh</h3>
-          </div>
+
         </div>
       </div>
 
 
       <div className="contactCard">
         <h2>Interested in collaborating with me?</h2>
-        <h3>I’m always open to discussing product design work or partnership opportunities.</h3>
+        <h3>I’m always open to discussing Full Stack Development or partnership opportunities.</h3>
         <div className="contactCardbtn"><a href="https://linkedin.com/in/uvutkarshverma" className="btn">Start a Coversation</a></div>
       </div>
 
 
       <div className="testimo">
         <h2>Testimonials</h2>
-        <p>People I've worked with have said some nice things...</p>
+        <p>"How People Describing me? Let`s Have a Look!"</p>
         <div className="testimonial">
-          <div className="slide-row" id="slide" dangerouslySetInnerHTML={{ __html: htmlPart }} >
+          <div className="slide-row" id="slide" >
+
+
+            <div class="slide-col slide-active">
+              <img src={Testi1} alt="" />
+              <h3>"I had the pleasure of working with Utkarsh Verma on a recent web development project, and I couldn't be happier with the results. He demonstrated a high level of technical expertise and was able to deliver a seamless and intuitive web application that exceeded my expectations. I would highly recommend Utkarsh to anyone looking for a skilled and dedicated full stack Developer. Thank you for your exceptional work!"</h3>
+              <p>Sunder Pichai</p>
+              <span>CEO, Google LLC.</span>
+            </div>
+
           </div>
           <div className="indicator">
             <span to="" className="indibtn indibtn-active" ></span>
@@ -510,7 +419,7 @@ function Home() {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }
