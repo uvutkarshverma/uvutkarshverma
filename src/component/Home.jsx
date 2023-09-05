@@ -8,6 +8,8 @@ import HeroDev from "../images/hero-devices.svg";
 import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
 import Testi1 from "../images/sunderptesti.jpg";
+import qnastop from "../images/qnastop.jpg";
+import food from "../images/food.jpg";
 
 
 import Anumak from "../images/company/aNumak.png";
@@ -135,7 +137,7 @@ function Home() {
             <h4>Tools:</h4>
             <span>Google</span>
             <span>Elementor</span>
-            <span>ShotCut Video editor</span>
+            <span>Video editor</span>
             <span>Canva</span>
             <span>Instagram</span>
             <span>Wordpress</span>
@@ -147,19 +149,19 @@ function Home() {
         <h2>My Recent Projects</h2>
         <p>
           Here are a few past design projects I've worked on. Want for Yourself?{" "}
-          <a href="mailto:utkarsh.verma9598@gmail.com"> Email me</a>.
+          <a href="mailto:myutkarshverma@gmail.com"> Email me</a>.
         </p>
         <div className="tyWorks2">
           <div className="ty1">
             <div className="ty1Direct">
-              <img src={Image1} alt="" />
+              <img src="https://raw.githubusercontent.com/uvutkarshverma/fateai/master/static/assets/fateai.png" alt="" />
             </div>
             <div className="ty1Hover">
               <p>
-                Updating Soon Meanwhile Have a look at Github.
+                FateAI - THE LARGEST AI TOOLS DIRECTORY
               </p>
               <div>
-                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma/fateai" className="btn">
                   Know More
                 </a>
               </div>
@@ -167,14 +169,14 @@ function Home() {
           </div>
           <div className="ty1">
             <div className="ty1Direct">
-              <img src={Image1} alt="" />
+              <img src={food} alt="" />
             </div>
             <div className="ty1Hover">
               <p>
-              Updating Soon Meanwhile Have a look at Github.
+              Complete Food Ordering Website with login, cart, dashboard and much more.
               </p>
               <div>
-                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma/food-ordering" className="btn">
                   Know More
                 </a>
               </div>
@@ -182,14 +184,14 @@ function Home() {
           </div>
           <div className="ty1">
             <div className="ty1Direct">
-              <img src={Image1} alt="" />
+              <img src={qnastop} alt="" />
             </div>
             <div className="ty1Hover">
               <p>
-              Updating Soon Meanwhile Have a look at Github.
+              Complete Blog Website Using Php Language
               </p>
               <div>
-                <a target="__blank" href="https://github.com/uvutkarshverma" className="btn">
+                <a target="__blank" href="https://github.com/uvutkarshverma/qnastop" className="btn">
                   Know More
                 </a>
               </div>
@@ -253,12 +255,12 @@ function Home() {
 
             <div className="scard">
               <div>
-                <h3>Qnastop.com</h3>
+                <h3>Fateai.xyz</h3>
               </div>
               <p>
-                One Stop For all Your Questions to get Answered.
+              THE LARGEST AI TOOLS DIRECTORY.
               </p>
-              <a href="https://qnastop.com/" target="__blank">
+              <a href="https://fateai.xyz/" target="__blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -354,10 +356,10 @@ function Home() {
 
 
             <div class="slide-col slide-active">
-              <img src={Testi1} alt="" />
+              {/* <img src={Testi1} alt="" /> */}
               <h3>"I had the pleasure of working with Utkarsh Verma on a recent web development project, and I couldn't be happier with the results. He demonstrated a high level of technical expertise and was able to deliver a seamless and intuitive web application that exceeded my expectations. I would highly recommend Utkarsh to anyone looking for a skilled and dedicated full stack Developer. Thank you for your exceptional work!"</h3>
-              <p>Sunder Pichai</p>
-              <span>CEO, Google LLC.</span>
+              <p>Awnish</p>
+              <span>Client</span>
             </div>
 
           </div>
