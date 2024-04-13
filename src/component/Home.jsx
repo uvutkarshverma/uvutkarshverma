@@ -7,7 +7,7 @@ import Avatar from "../images/avatar.svg";
 import HeroDev from "../images/hero-devices.svg";
 import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
-import Testi1 from "../images/sunderptesti.jpg";
+import fateai from "../images/fateai.png";
 import qnastop from "../images/qnastop.jpg";
 import food from "../images/food.jpg";
 
@@ -154,7 +154,7 @@ function Home() {
         <div className="tyWorks2">
           <div className="ty1">
             <div className="ty1Direct">
-              <img src="https://raw.githubusercontent.com/uvutkarshverma/fateai/master/static/assets/fateai.png" alt="" />
+              <img src={fateai} alt="" />
             </div>
             <div className="ty1Hover">
               <p>
