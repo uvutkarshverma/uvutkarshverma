@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import homeImage from "../images/utkarsh.png";
 import Avatar from "../images/avatar.svg";
 import HeroDev from "../images/hero-devices.svg";
-import Image1 from "../images/image1.jpg";
 import Logo from "../images/logo.png";
 import fateai from "../images/fateai.png";
 import qnastop from "../images/qnastop.jpg";
@@ -15,6 +14,12 @@ import food from "../images/food.jpg";
 import Anumak from "../images/company/aNumak.png";
 import Nuvo from "../images/company/nuvo.png";
 import Jug from "../images/company/jug.png";
+import ayodhyamahotsav from "../images/company/ayodhyamahotsav.png";
+import srsfashion from "../images/company/SRS_LOGO_.png";
+
+
+import NuvoOwner from "../images/clientimg/nuvo.jpeg";
+
 function Home() {
 
   const dict1 = [
@@ -201,9 +206,9 @@ function Home() {
         
         </div>
         <div className="fmog">
-          <Link target="__blank" to="https://github.com/uvutkarshverma" className="btn fmog">
+          <a target="__blank" href="https://github.com/uvutkarshverma" className="btn fmog">
             Find More on Github
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -328,10 +333,16 @@ function Home() {
             <img src={Anumak} alt="" />
           </div>
           <div className="companyitem">
+            <img src={ayodhyamahotsav} alt="" />
+          </div>
+          <div className="companyitem">
             <h3>UrbanFMS.com</h3>
           </div>
           <div className="companyitem">
             <img src={Nuvo} alt="" />
+          </div>
+          <div className="companyitem">
+            <img src={srsfashion} alt="" />
           </div>
           <div className="companyitem">
             <h3>Voicet.studio</h3>
@@ -356,10 +367,10 @@ function Home() {
 
 
             <div class="slide-col slide-active">
-              {/* <img src={Testi1} alt="" /> */}
+              {<img src={NuvoOwner} alt="" />}
               <h3>"I had the pleasure of working with Utkarsh Verma on a recent web development project, and I couldn't be happier with the results. He demonstrated a high level of technical expertise and was able to deliver a seamless and intuitive web application that exceeded my expectations. I would highly recommend Utkarsh to anyone looking for a skilled and dedicated full stack Developer. Thank you for your exceptional work!"</h3>
-              <p>Awnish</p>
-              <span>Client</span>
+              <p>Pooja (Rai) Telavane</p>
+              <span>Founder of NUVO Consultancy</span>
             </div>
 
           </div>
