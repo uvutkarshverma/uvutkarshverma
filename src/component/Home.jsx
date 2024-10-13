@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import homeImage from "../images/utkarsh.png";
 import Avatar from "../images/avatar.svg";
+import Avatar1 from "../images/profile-pic.png";
 import HeroDev from "../images/hero-devices.svg";
 import Logo from "../images/logo.png";
 import fateai from "../images/fateai.png";
@@ -70,7 +71,7 @@ function Home() {
           </p>
         </div>
         <div className="personaHo" >
-          <img src={Avatar} alt="" />
+          <img src={Avatar1} alt="" />
         </div>
         <div className="simage">
           <img src={HeroDev} alt="" />
