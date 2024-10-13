@@ -175,6 +175,11 @@
     justify-content: center;
 
 }
+.personaHo img{
+    width: 250px;
+    height: 250px;
+
+}
 
 .simage {
     width: 100%;
