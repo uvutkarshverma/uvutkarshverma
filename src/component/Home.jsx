@@ -71,7 +71,7 @@ function Home() {
           </p>
         </div>
         <div className="personaHo" >
-          <img src={Avatar1} alt="" />
+          <img src={Avatar} alt="" />
         </div>
         <div className="simage">
           <img src={HeroDev} alt="" />
