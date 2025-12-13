@@ -6,7 +6,7 @@ function footer() {
             <div className="footerCard">
                 <div className="footerCarditem"><h3>Start a Project</h3></div>
                 <div className="footerCarditem"><p>Are you interested in collaborating? Let's schedule a time to chat over coffee on me.</p></div>
-                <div className="footerCarditem"><a href="https://wa.me/send?phone=918114116221&text=Hello%20Utkarsh%20😀" className="btn" target="_blank">Lets Do It.</a></div>
+                <div className="footerCarditem"><a href="https://wa.me/send?phone=918887339950&text=Hello%20Utkarsh%20😀" className="btn" target="_blank">Lets Do It.</a></div>
             </div>
 
             <div className="footerContent">
